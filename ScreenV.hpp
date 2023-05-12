@@ -10,4 +10,5 @@ class Screen{ //pure virtual class
     virtual void drawObjects()=0;  //void function which draws objects   
     virtual int check(int ,int)=0; //this check whether to move the screen to the next depending on which class
     //calls it
+    virtual ~Screen();
 };

@@ -39,5 +39,5 @@ int Filler::check(int x, int y){ //decides whether game should continue of lose
         return 0; //0 for continue
         
     }
-
+    return 8;
 }    
